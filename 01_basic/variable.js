@@ -36,3 +36,12 @@ When to Use var, let, or const?
 4. Only use let if you can't use const
 
 5. Only use var if you MUST support old browsers because of scope isSecureContext,(by default var scope is global, so once changed all values of that variable would be changed)
+
+
+
+
+You can declare many variables in one statement.
+
+Start the statement with let and separate the variables by comma:
+
+let person = "John Doe", carName = "Volvo", price = 200;
