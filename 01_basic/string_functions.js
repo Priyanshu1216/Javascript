@@ -25,3 +25,13 @@ function getIndexOf(str,substr){
 
 console.log(getIndexOf("Hello this is priyanshu" ,"priyanshu"));
 console.log(getIndexOf("Hello this is priyanshu" ,"lol"));
+
+
+// lastIndexOf : return the starting of last substring in string and returns -1 if not found
+
+function getlastIndexof(str, substr){
+  return str.lastIndexOf(substr);
+}
+
+console.log(getlastIndexof("priyanshu is a good very good boy", "good"));
+console.log(getlastIndexof("priyanshu is a good very good boy", "girl"));
