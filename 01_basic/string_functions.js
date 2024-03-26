@@ -87,3 +87,19 @@ function trimStr(str){
 
 console.log(trimStr("       priyanshu     hello    "));
 
+// toUpperCase : changes String to toUpperCase
+
+function toUpcase(str){
+  return str.toUpperCase();
+}
+
+console.log(toUpcase("hello"));
+
+
+// toLowerCase : changes String to toLowerCase
+
+function toLowcase(str){
+  return str.toLowerCase();
+}
+
+console.log(toLowcase("HELLO THERE!"));
