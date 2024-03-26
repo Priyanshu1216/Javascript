@@ -76,3 +76,14 @@ console.log(splitStr(str1,",")); //here divider or sepator is space between
 
 let str2 = "Priyannshu-is-a-handsome boy"
 console.log(splitStr(str2,"-")); //here divider or sepator is space between
+
+
+
+// trim : trims out the space from staring and beginning of a string 
+
+function trimStr(str){
+  return str.trim();
+}
+
+console.log(trimStr("       priyanshu     hello    "));
+
