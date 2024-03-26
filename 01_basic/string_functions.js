@@ -60,3 +60,19 @@ function replaceStr(str,substr,newsSubStr){
 }
 
 console.log(replaceStr("Priyanshu is a good boy", "good", "very good"));
+
+
+// split : it splits the string to array of elements by dividing through seperator, for example(comma,space,under_score,hyphen)
+
+function splitStr(str,divider){
+  return str.split(divider);
+}
+
+let str = "Priyannshu is a handsome boy"
+console.log(splitStr(str," ")); //here divider or sepator is space between
+
+let str1 = "Priyannshu,is,a,handsome,boy"
+console.log(splitStr(str1,",")); //here divider or sepator is space between
+
+let str2 = "Priyannshu-is-a-handsome boy"
+console.log(splitStr(str2,"-")); //here divider or sepator is space between
