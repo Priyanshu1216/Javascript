@@ -35,3 +35,20 @@ function getlastIndexof(str, substr){
 
 console.log(getlastIndexof("priyanshu is a good very good boy", "good"));
 console.log(getlastIndexof("priyanshu is a good very good boy", "girl"));
+
+
+// slice : it slices the string from given starting index to until given last index (last index excluded)
+
+function sliceStr(str,start,end){
+  return str.slice(start,end);
+}
+
+console.log(sliceStr("Priyanshu",2,5));
+
+// substring : it slices out the string from start index to length of end index (not used in newer version of  js)
+
+function substr(str,start,end){
+  return str.substring(start,end);
+}
+
+console.log(substr("Priyanshu",2,7));
