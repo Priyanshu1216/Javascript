@@ -52,3 +52,11 @@ function substr(str,start,end){
 }
 
 console.log(substr("Priyanshu",2,7));
+
+// replace : replaces a subtring in string to new substr and returns existing string if string to be replaced is not found
+
+function replaceStr(str,substr,newsSubStr){
+  return str.replace(substr,newsSubStr)
+}
+
+console.log(replaceStr("Priyanshu is a good boy", "good", "very good"));
