@@ -139,3 +139,14 @@ changeToString(arr8);
 // The Difference Between Arrays and Objects
 
 // In JavaScript, arrays use numbered indexes while objects use named indexes.
+
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// Hw to create array in JS
+
+// we can create like this
+
+
+// const points = new Array(); example: const points = new Array(40, 100, 1);
+// const points = [1,2,43];
