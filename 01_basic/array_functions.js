@@ -121,3 +121,21 @@ const arr7 = [9,8,7,6,5,4,3,2,1]
 let position = 4
 
 findElement(arr7,position);
+
+
+// toString : changes array to String
+
+function changeToString(arr){
+  console.log(arr);
+  const newStr = arr.toString();
+  console.log(newStr);
+  console.log(typeof newStr);
+}
+
+let arr8 = [1,2,3,5]
+changeToString(arr8);
+
+
+// The Difference Between Arrays and Objects
+
+// In JavaScript, arrays use numbered indexes while objects use named indexes.
