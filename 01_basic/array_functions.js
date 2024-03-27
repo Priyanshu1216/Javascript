@@ -108,3 +108,16 @@ function mergeArr(arr,newArr){
 let arr6 = [1,2,3]
 let newArr1 = ['a','b','c']
 mergeArr(arr6,newArr1);
+
+
+
+// At : find element of array at given position, similar to doing arr[position]
+
+function findElement(arr,position){
+  console.log(arr.at(position));
+}
+
+const arr7 = [9,8,7,6,5,4,3,2,1]
+let position = 4
+
+findElement(arr7,position);
