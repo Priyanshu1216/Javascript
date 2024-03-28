@@ -60,7 +60,7 @@ function getLetter(s) {
   let letter;
 
   switch (s.charAt(0)){
-      case 'a':                                                     // here, case a,e,i,o,u share same block hence written like this
+      case 'a':                                                     // here, case a,e,i,o,u share same cose block hence written like this
       case 'e':
       case 'i':
       case 'o':
