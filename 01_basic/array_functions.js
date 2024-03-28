@@ -150,3 +150,24 @@ changeToString(arr8);
 
 // const points = new Array(); example: const points = new Array(40, 100, 1);
 // const points = [1,2,43];
+
+
+
+
+// second largest
+
+
+function getSecondLargest(nums) {
+  let secMax;
+  let sortedArr = nums.sort((a,b) => a-b);
+  // console.log(sortedArr);
+  for (let i = sortedArr.length - 1; i >= 0; i--){
+      if (sortedArr[i] > sortedArr[i-1]){
+          secMax = sortedArr[i-1];
+          break;
+      }
+  }
+  return secMax;
+}   
+
+console.log(getSecondLargest([2,3,6,6,5]));
