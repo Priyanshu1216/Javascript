@@ -17,3 +17,31 @@ function takeinput() {
 }
 
 console.log(takeinput());
+
+
+
+
+
+
+
+// Example 2
+
+function square1(n){
+  return n*n;
+}
+
+function cube(n){
+  return n*n*n;
+}
+
+function findSomething(a,b,callback){
+  let a1 = callback(a);
+  let b1 = callback(b);
+
+  return a1 + b1;
+}
+
+
+console.log(findSomething(2,3,square1));
+console.log(findSomething(2,3,cube));
+
