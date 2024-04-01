@@ -33,7 +33,7 @@ class Vehicle {
   }
 
   static type(){
-    console.log(this);                                                                        // class method( static method in javascript)
+    console.log(this);                                                                        // class method(static method in javascript)
   }
 }
   
