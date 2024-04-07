@@ -24,6 +24,7 @@ variable defined with keyword var have scope issue (block scope and functional s
 */
 
 
+/*
 
 When to Use var, let, or const?
 
