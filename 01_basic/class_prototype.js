@@ -78,7 +78,6 @@ person2.sayHello(); // Outputs: Hello, my name is Bob
 
 
 /*
-
 In both examples, the sayHello method is attached to the prototype of the Person class, and instances of Person inherit this method. 
 This is the essence of how "class prototypes" work in JavaScript.
 
