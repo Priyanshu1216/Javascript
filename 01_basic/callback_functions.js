@@ -1,6 +1,6 @@
 // Callback functions
 
-// Calling function inside another function is basically cancelIdleCallback.
+// Calling function inside another function is basically called Callback.
 
 // Example -
 
