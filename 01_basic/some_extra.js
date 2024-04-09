@@ -14,6 +14,8 @@ Variable values are called Variables.
 
 // Literals
 
+/*
+
 The two most important syntax rules for fixed values are:
 
 1. Numbers are written with or without decimals: // 10.00, 1001
@@ -77,4 +79,4 @@ JavaScript programmers tend to use camel case that starts with a lowercase lette
 
 firstName, lastName, masterCard, interCity.
 
-
+*/
