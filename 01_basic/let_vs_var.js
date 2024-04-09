@@ -1,5 +1,7 @@
 // let 
 
+/*
+
 The let keyword was introduced in ES6 (2015)
 
 Variables declared with let have Block Scope
@@ -27,7 +29,7 @@ Variables declared inside a { } block cannot be accessed from outside the block:
 }
 // x can NOT be used here
 
-
+*/
 
 // var 
 
