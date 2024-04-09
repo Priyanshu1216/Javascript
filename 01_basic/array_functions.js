@@ -218,6 +218,6 @@ function getSecondLargest(nums) {
       }
   }
   return secMax;
-}   
+}
 
 console.log(getSecondLargest([2,3,6,6,5]));
