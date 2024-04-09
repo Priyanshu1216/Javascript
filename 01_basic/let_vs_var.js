@@ -31,10 +31,14 @@ Variables declared inside a { } block cannot be accessed from outside the block:
 
 */
 
-// var 
 
 
 
+// va 
+
+
+
+/*
 Global Scope
 Variables declared with the var always have Global Scope.
 
@@ -60,9 +64,7 @@ With var you can do this:
 var x = "John Doe";
 
 var x = 0;
-
-
-
+*/
 
 // Hoisting 
 
