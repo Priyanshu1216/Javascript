@@ -68,4 +68,4 @@ var x = 0;
 
 // Hoisting 
 
-Meaning: You can use the variable before it is declared: 
+// Meaning: You can use the variable before it is declared
