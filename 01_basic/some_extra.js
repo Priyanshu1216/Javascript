@@ -1,3 +1,5 @@
+/*
+
 The JavaScript syntax defines two types of values:
 
 Fixed values
@@ -8,7 +10,7 @@ Fixed values are called Literals.
 
 Variable values are called Variables.
 
-
+*/
 
 // Literals
 
