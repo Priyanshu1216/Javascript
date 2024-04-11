@@ -61,4 +61,4 @@ function FindRoot(n,fn){
   return root;
 }
 
-console.log(FindRoot(9,FindsSqrt));
+console.log(FindRoot(9,FindsSqrt));             // Example of callback
