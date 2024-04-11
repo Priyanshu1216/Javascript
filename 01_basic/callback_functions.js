@@ -46,7 +46,7 @@ console.log(findSomething(2,3,square1));
 console.log(findSomething(2,3,cube));
 
 
-// More Examples 
+// More Examples-
 
 function FindsSqrt(n){
   return Math.sqrt(n);
