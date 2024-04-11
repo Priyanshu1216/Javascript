@@ -49,7 +49,6 @@ console.log(findSomething(2,3,cube));
 // More Examples 
 
 
-
 function FindsSqrt(n){
   return Math.sqrt(n);
 }
