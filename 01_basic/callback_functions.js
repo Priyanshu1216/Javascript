@@ -45,3 +45,22 @@ function findSomething(a,b,callback){
 console.log(findSomething(2,3,square1));
 console.log(findSomething(2,3,cube));
 
+
+// More Examples 
+
+
+
+function FindsSqrt(n){
+  return Math.sqrt(n);
+}
+
+function FindCbrt(n){
+  return Math.cbrt(n);
+}
+
+function FindRoot(n,fn){
+  let root = fn(n);
+  return root;
+}
+
+console.log(FindRoot(9,FindsSqrt));
