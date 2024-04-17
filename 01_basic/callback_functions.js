@@ -18,7 +18,6 @@ function takeinput() {
 console.log(takeinput());
 
 
-
 // Example 2
 
 function square1(n){
