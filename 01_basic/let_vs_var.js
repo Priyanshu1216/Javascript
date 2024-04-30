@@ -1,4 +1,4 @@
-// let 
+// let
 
 /*
 
@@ -34,12 +34,14 @@ Variables declared inside a { } block cannot be accessed from outside the block:
 
 
 
-// va 
+// var
 
 
 
 /*
+
 Global Scope
+
 Variables declared with the var always have Global Scope.
 
 Variables declared with the var keyword can NOT have block scope:
@@ -66,6 +68,6 @@ var x = "John Doe";
 var x = 0;
 */
 
-// Hoisting 
+// Hoisting
 
 // Meaning: You can use the variable before it is declared

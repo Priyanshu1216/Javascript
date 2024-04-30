@@ -36,7 +36,7 @@ const date = new Date("2022-03-25");
 
 let x;       // Now x is undefined
 
-let y = null;   // empty value 
+let y = null;   // empty value
 
 
 

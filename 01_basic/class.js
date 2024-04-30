@@ -36,7 +36,7 @@ class Vehicle {
     console.log(this);                                                                        // class method(static method in javascript)
   }
 }
-  
+
 let car = new Vehicle("Maruti Suzuki","SUV")
 let result2 = car.introduce()
 

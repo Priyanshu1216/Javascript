@@ -17,9 +17,9 @@ console.table([accountId,accountEmail,accountName]);
 
 console.table() takes and array as argument and shows all the elements in tabular form.
 
-let ans var both are used to define variables but there is a subtle difference between them, 
+let and var both are used to define variables but there is a subtle difference between them, 
 
-variable defined with keyword var have scope issue (block scope and functional scope) hence they are not used and instead of that let keyword is used to define the variable.
+variable defined with keyword var have scope issue (block scope and functional scope) hence they are not used and instead of this let keyword is used to define the variable.
 
 */
 

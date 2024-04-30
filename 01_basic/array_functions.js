@@ -96,7 +96,7 @@ let items_to_add = "hello"
 spliceArr(arr5,start,num_of_items_to_delete,items_to_add);
 
 
-// concat : merges the given arraya and return newly merged array
+// concat : merges the given array and return newly merged array
 
 function mergeArr(arr,newArr){
   console.log(arr);
