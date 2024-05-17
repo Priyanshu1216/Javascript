@@ -62,4 +62,3 @@ function getDayName(dateString) {
   return dayName;
 }
 
-
